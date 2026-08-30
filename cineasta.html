@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Cineasta — Setmov</title>
+  <style>
+    :root{ --bg:#fff; --bg2:#f9f9fb; --bd2:rgba(124,58,237,.06); --txt:#0c0714; --txt2:#4a4357; --accent2:#6d28d9; --f: 'Inter', system-ui, sans-serif }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:var(--f);background:var(--bg);color:var(--txt);padding-top:88px;}
+    /* minimal header/footer styles copied from main site */
+    .site-header{position:fixed;top:0;left:0;width:100%;z-index:200;background:rgba(255,255,255,0.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--bd2);height:88px}
+    .top-bar{display:flex;align-items:center;justify-content:space-between;padding:0 6%;max-width:1100px;margin:0 auto;height:100%}
+    .top-brand{position:absolute;left:80px;top:50%;transform:translateY(-50%);display:flex;align-items:center;z-index:210}
+    .top-brand img{height:18px}
+    .top-right{position:absolute;right:80px;top:50%;transform:translateY(-50%);display:flex;align-items:center;gap:12px;z-index:210}
+    .top-nav{display:flex;align-items:center;gap:12px}
+    .top-nav a{text-decoration:none;color:var(--txt2);font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:8px 12px;border-radius:8px}
+    .top-nav a:hover{color:var(--accent2);background:rgba(124,58,237,0.08)}
+    .lang-trigger{background:var(--bg2);border:1px solid rgba(124,58,237,.15);padding:6px 12px;border-radius:20px}
+    footer{padding:40px 6%;max-width:1100px;margin:36px auto 80px;display:flex;gap:16px;align-items:center;justify-content:space-between}
+    .footer-copy{font-size:12px;color:var(--txt2)}
+    main{padding:120px 6%;min-height:60vh}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="top-bar">
+      <a class="top-brand" href="index.html" aria-label="Setmov home"><img src="LOGO-preta.svg" alt="Setmov"></a>
+      <div class="top-right">
+        <nav class="top-nav" aria-label="Navegação principal">
+          <a href="cineasta.html">Cineasta</a>
+          <a href="index.html#download">Baixar agora</a>
+        </nav>
+        <div class="top-actions">
+          <div class="lang-trigger">PT</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Conteúdo provisório em branco -->
+    <h1>Cineasta</h1>
+    <p>Esta página está em construção. Volte em breve.</p>
+  </main>
+
+  <footer>
+    <div class="footer-logo"><img src="LOGO-preta.svg" alt="Setmov" style="height:24px"></div>
+    <div class="footer-copy">© 2026 Setmov. Todos os direitos reservados.</div>
+  </footer>
+</body>
+</html>
